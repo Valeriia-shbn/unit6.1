@@ -19,7 +19,7 @@ public class TransferMoneyPage {
         heading.shouldBe(visible);
     }
 
-    public DashboardPage transferMoney(String fromCard, int amountMoney){
+    public DashboardPage transferMoney(String fromCard, int amountMoney) {
 
         amount.doubleClick();
         amount.sendKeys(Keys.DELETE);

@@ -1,9 +1,8 @@
-
 name: CI
 
 # Controls when the workflow will runname: Java CI with Gradle
 
-on: [push, pull_request]
+on: [ push, pull_request ]
 
 jobs:
   build:
